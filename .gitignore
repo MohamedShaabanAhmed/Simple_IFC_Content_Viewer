@@ -1,0 +1,65 @@
+# .gitignore for Simple IFC Content Viewer
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IFC Files (temporary)
+*.ifc
+*.ifcxml
+*.ids
+uploads/
+temp/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Other project files (keep only standalone)
+ifc_toolkit/
+app_streamlit/
+frontend/
+server.py
+test_api.html
+*.md
+!README_STANDALONE.md
+requirements.txt
+!requirements_standalone.txt
+LICENSE
+!LICENSE_STANDALONE
